@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/board_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:elevation="8dp"
+    android:layout_marginTop="4dp"
+    android:background="@android:color/white"
+    android:paddingLeft="0dp" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topBoardLayout"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/time_view"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="@dimen/size_fab"
+                    android:text="Wed,March 4, 2015, 6.09"
+                    android:paddingRight="3dp"
+                    android:textColor="@color/theme_green_text"
+                    android:textSize="13sp" />
+
+                <ImageView
+                    android:id="@+id/tag_icon"
+                    android:layout_width="@dimen/size_fab"
+                    android:layout_height="@dimen/size_fab"
+                    android:gravity="right"
+                    android:layout_gravity="right"
+                    android:paddingRight="3dp"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/ic_android_128"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionVoteIcon"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_keyboard_arrow_up_black_48dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/questionVotes"
+                    android:text="4"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/qtitle"
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Title" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/bottomBoardLayout"
+        android:layout_below="@id/topBoardLayout"
+        android:gravity="left">
+
+
+        <TextView
+            android:id="@+id/writer_name"
+            android:layout_width="0dp"
+            android:layout_weight="0.4"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:gravity="left"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

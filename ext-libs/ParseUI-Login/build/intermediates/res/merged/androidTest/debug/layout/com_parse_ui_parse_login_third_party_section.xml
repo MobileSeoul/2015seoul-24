@@ -1,0 +1,21 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/facebook_login"
+        style="@style/ParseLoginUI.Button.ThirdPartyLogin"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:background="@drawable/com_parse_ui_facebook_login_button_background_selector"
+        android:drawableLeft="@drawable/com_parse_ui_facebook_login_logo"
+        android:text="@string/com_parse_ui_facebook_login_button_label"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/twitter_login"
+        style="@style/ParseLoginUI.Button.ThirdPartyLogin"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:background="@drawable/com_parse_ui_twitter_login_button_background_selector"
+        android:drawableLeft="@drawable/com_parse_ui_twitter_login_logo"
+        android:text="@string/com_parse_ui_twitter_login_button_label"
+        android:visibility="gone" />
+</merge>
+<!-- From: file:/Users/hassanabid/Documents/hassan/open_source/seoul_city_app/SeoulCityApp/ext-libs/ParseUI-Login/src/main/res/layout/com_parse_ui_parse_login_third_party_section.xml --><!-- From: file:/Users/hassanabid/Documents/hassan/open_source/seoul_city_app/SeoulCityApp/ext-libs/ParseUI-Login/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_third_party_section.xml -->

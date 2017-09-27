@@ -1,0 +1,129 @@
+<!--
+  ~ Copyright 2015 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_question_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:id="@+id/scorecard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:visibility="gone" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/quiz_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="?android:attr/windowBackground" />-->
+
+    <TextView
+        android:id="@+id/qTitleDetail"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/qContentDetail"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_below="@id/qTitleDetail"
+        android:textSize="13sp"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:maxHeight="240dp"
+        android:ellipsize="end"
+        android:layout_height="wrap_content" />
+
+    <include layout="@layout/quiz_edit_text"
+        android:layout_height="56dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="44dp"
+        android:layout_below="@id/qContentDetail"/>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/progress_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="?colorPrimary"
+        android:elevation="@dimen/elevation_header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_double"
+                android:layout_marginRight="@dimen/spacing_double"
+                android:progressTint="?android:colorAccent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <co.askseoulites.seoulcityapp.widgets.AvatarView
+                    android:id="@+id/avatar_q_detail"
+                    android:layout_width="@dimen/size_avatar_toolbar"
+                    android:layout_height="@dimen/size_avatar_toolbar"
+                    android:layout_marginBottom="@dimen/spacing_normal"
+                    android:layout_marginEnd="@dimen/spacing_double"
+                    android:layout_marginRight="@dimen/spacing_double"
+                    android:scaleX="0"
+                    android:src="@drawable/avatar_6"
+                    android:scaleY="0"/>
+
+                <TextView
+                    android:id="@+id/progress_text"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/show_answers"
+                    android:textColor="@drawable/submit_text_selector"
+                    android:text="@string/show_answers"
+                    android:layout_width="wrap_content"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+</RelativeLayout>

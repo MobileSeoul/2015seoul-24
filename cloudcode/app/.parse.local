@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "Seoul City app": {
+      "applicationId": "AfQ8LRQet5skNiAeY9Ki9asm17rzN9q4RQX4gU3a"
+    },
+    "_default": {
+      "link": "Seoul City app"
+    }
+  }
+}

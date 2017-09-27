@@ -1,0 +1,3 @@
+include ':app', ':ParseUI-Login', ':ParseUI-Widget'
+project(':ParseUI-Login').projectDir = new File('ext-libs/ParseUI-Login')
+project(':ParseUI-Widget').projectDir = new File('ext-libs/ParseUI-Widget')

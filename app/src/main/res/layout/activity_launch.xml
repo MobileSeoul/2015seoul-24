@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="co.askseoulites.seoulcityapp.activities.LaunchActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorAccent"
+            android:layout_height="48dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:onClick="startLogin"
+            android:textColor="@android:color/white"
+            android:text="@string/login"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="48dp"
+            android:layout_marginRight="20dp"
+            android:onClick="startLogin"
+            android:layout_marginLeft="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:textSize="16sp"
+            android:text="@string/signup"/>
+
+    </LinearLayout>
+</FrameLayout>

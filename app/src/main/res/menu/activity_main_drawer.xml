@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_gallery" android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Collections" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Questions" />
+&lt;!&ndash;        <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+            android:title="Settings" />&ndash;&gt;
+    </group>-->
+
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Log out" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_dialog_info"
+                android:title="About us" />
+        </menu>
+    </item>
+
+</menu>

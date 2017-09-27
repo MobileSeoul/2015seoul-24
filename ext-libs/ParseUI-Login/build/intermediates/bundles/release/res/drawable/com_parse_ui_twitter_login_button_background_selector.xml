@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@color/com_parse_ui_twitter_login_button_push"/>
+    <item android:state_focused="true" android:drawable="@color/com_parse_ui_twitter_login_button_focus"/>
+    <item android:drawable="@color/com_parse_ui_twitter_login_button"/>
+
+</selector>
+<!-- From: file:/Users/hassanabid/Documents/hassan/open_source/seoul_city_app/SeoulCityApp/ext-libs/ParseUI-Login/src/main/res/drawable/com_parse_ui_twitter_login_button_background_selector.xml -->

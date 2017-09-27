@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:paddingStart="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginBottom="4dp"
+        card_view:cardElevation="12dp">
+
+        <TextView
+            android:id="@+id/tagTitle"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Korean Language"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/collectionNo"
+        android:layout_gravity="top|end|right"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="1"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/collectionTitle"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/spacing_double"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:text="@string/enter_some_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/collectionWriter"
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+
+    </android.support.v7.widget.CardView>

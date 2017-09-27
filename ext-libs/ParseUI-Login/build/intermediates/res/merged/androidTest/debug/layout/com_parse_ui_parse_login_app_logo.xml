@@ -1,0 +1,8 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_logo"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/com_parse_ui_app_logo"
+    android:contentDescription="@string/com_parse_ui_logo_content_description" />
+<!-- From: file:/Users/hassanabid/Documents/hassan/open_source/seoul_city_app/SeoulCityApp/ext-libs/ParseUI-Login/src/main/res/layout/com_parse_ui_parse_login_app_logo.xml --><!-- From: file:/Users/hassanabid/Documents/hassan/open_source/seoul_city_app/SeoulCityApp/ext-libs/ParseUI-Login/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_login_app_logo.xml -->

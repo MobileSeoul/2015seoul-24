@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="6dp"
+    android:weightSum="1"
+    android:paddingTop="8dp" >
+
+    <TextView
+        android:id="@+id/survey_title"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="dummy Title"
+        android:lines="2"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:paddingBottom="18dp"
+        android:textColor="@android:color/black"
+        android:textSize="13.5sp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="end"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/checkmark">
+
+
+        <TextView
+            android:id="@+id/noti_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"
+            android:paddingLeft="4dp"
+            android:textColor="@android:color/black"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

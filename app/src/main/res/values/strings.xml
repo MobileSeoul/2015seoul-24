@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Seoul City App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Parse and Facebook -->
+    <string name="parse_app_id">AfQ8LRQet5skNiAeY9Ki9asm17rzN9q4RQX4gU3a</string>
+    <string name="parse_client_key">KFP8mjEyBP6O7GblV2GSRmkms3ouwkKxGyrwueof</string>
+    <string name="facebook_app_id">911209775636687</string>
+
+    <string name="seoul_life">Seoul Life</string>
+    <string name="study">Study</string>
+    <string name="job">Job</string>
+    <string name="travel">Travel</string>
+    <string name="korean">Korean</string>
+    <string name="about_us">About</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+
+    <string-array name="cat_array">
+        <item>Seoul Life</item>
+        <item>Study</item>
+        <item>Job</item>
+        <item>Travel</item>
+        <item>Korean</item>
+        <item>About</item>
+    </string-array>
+
+    <string-array name="tag_array">
+        <!-- STUDY -->
+        <item>Korean language</item>
+        <item>University</item>
+        <item>Scholarship</item>
+        <item>Visa</item>
+
+        <!-- Seoul Life -->
+        <item>Housing</item>
+        <item>Taxes</item>
+        <item>Transport</item>
+        <item>Markets</item>
+        <item>Insurance</item>
+        <item>Visa</item>
+        <item>Phones</item>
+        <item>Internet</item>
+        <item>Hospital</item>
+        <item>Religion</item>
+        <item>Embassy</item>
+
+        <!-- Seoul Life -->
+        <item>Job</item>
+        <item>Internship</item>
+        <item>Visa</item>
+
+        <!-- Travel -->
+        <item>Housing</item>
+        <item>Transport</item>
+        <item>Shopping</item>
+        <item>Restaurant</item>
+        <item>Attraction</item>
+
+    </string-array>
+
+    <string name="add_question_title">Write title of your question</string>
+    <string name="add_question_content">Explain your question briefly</string>
+    <string name="a_tag">A Tag</string>
+    <string name="choose_tags">Choose a tag: %s</string>
+
+    <!-- action bar strings -->
+
+    <string name="action_notification">Notification</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_single_category">SingleCategoryActivity</string>
+    <string name="title_activity_single_cat_tab">SingleCatTabActivity</string>
+    <string name="section_format">Name: %1$d</string>
+    <string name="name_format">%s</string>
+    <string name="title_activity_single_cat_vp">Singe Category</string>
+    <string name="title_activity_question_detail">QuestionDetailActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="title_activity_new_question">Post Question 2/2</string>
+    <string name="title_activity_new_question_tag">Post Question 1/2</string>
+
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="select_picture">Select Photo</string>
+    <string name="insert_link_message">For example http://seoul.go.kr</string>
+    <string name="insert_link_title">Enter valid URL</string>
+    <string name="network_not_available">Network not available!</string>
+    <string name="enter_some_text">Kindly enter some text</string>
+    <string name="question_posted_toast">Question posted!</string>
+    <string name="enter_valid_url">Kindly enter a valid URL/link</string>
+    <string name="answer_hint">Write your answer here</string>
+    <string name="quiz_of_quizzes">%1$s / %2$s</string>
+    <string name="show_answers">Show Answers</string>
+    <string name="hide_answers">Hide Answers</string>
+    <string name="_answer_submitted">Answer Submitted</string>
+    <string name="no_answer_available">No answers Available Yet</string>
+    <string name="no_questions_posted">No Questions posted yet! Go ahead and post first one!</string>
+    <string name="title_activity_profile">User Profile</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="questions">Questions</string>
+    <string name="answers">Answers</string>
+    <string name="accept_answer">Accept answer</string>
+    <string name="share">Share</string>
+    <string name="help">Help</string>
+    <string name="answer_popup_title">Share this answer or accept it as correct</string>
+    <string name="location">Location</string>
+    <string name="no_collection_available">No Collection available</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="posted_by">Posted by %s</string>
+    <string name="share_template">Question: \'<xliff:g id="title">%1$s</xliff:g>\' \n Tag: <xliff:g id="hashtags">%2$s</xliff:g> <xliff:g id="url">%3$s</xliff:g> \n Answer:  <xliff:g id="answer">%4$s</xliff:g></string>
+    <string name="title_share">Share with your friends!</string>
+    <!-- Error messages -->
+    <string name="something_went_wrong">Something went wrong, try again later!</string>
+    <string name="title_activity_collection_detail">CollectionDetailActivity</string>
+    <string name="user_pts">%d pts</string>
+    <string name="tag_example">For example K-POP,Kimchi etc.</string>
+    <string name="insert_tag_message">Insert Tag</string>
+    <string name="tag_added">New Tag added to your profile!</string>
+    <string name="user_level_low">Level %d</string>
+    <string name="nothing">No new notification available yet!</string>
+    <string name="action_alerts">Notifications</string>
+
+    <string-array name="facebook_permissions">
+        <item>public_profile</item>
+        <item>user_friends</item>
+        <item>email</item>
+    </string-array>
+    <string name="title_activity_notification_activity_new">NotificationActivityNew</string>
+
+
+</resources>

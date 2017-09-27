@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/ic_share_white_36dp"/>
+    <item android:id="@+id/accept_answer"
+        android:title="@string/accept_answer"
+        android:icon="@drawable/ic_done_white_36dp"/>
+<!--    <group android:id="@+id/helpgroup">
+        <item android:id="@+id/location"
+            android:title="@string/location"
+            android:icon="@drawable/ic_place_white_36dp"/>
+    </group>-->
+</menu>
